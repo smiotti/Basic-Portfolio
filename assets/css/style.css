@@ -5,7 +5,6 @@ body {
   margin: 0;
   line-height: 1.5;
 	background: #dddddd url(http://4.bp.blogspot.com/-fCSZHFJ8LIk/T5Gv83GxUYI/AAAAAAAAANY/Mi1fvmJ1aPI/s0/Lure%2BMaking%2BProject%2B1%2B005%2BLarge%2BWeb%2Bview.jpg) repeat scroll top left;
-		/* background: url("../images/concrete-texture.png"); */
 }
 
 {
@@ -73,7 +72,7 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
-	color: #999;
+	color: #777777;
 	margin-left: 20px;
 	line-height: 22px;
 	padding-left: 20px;
@@ -123,7 +122,7 @@ nav ul li:first-child a {
 	margin-right: 30px;
 }
 
-/* Contact */
+/* Styling for Contact Page */
 
 #contact-form ul {
   margin-bottom: 20px;
@@ -163,7 +162,7 @@ input[type=submit] {
   border: 0 none;
 }
 
-/* Portfolio */
+/* Styling for Portfolio Page*/
 
 .sports {
   position: relative;
@@ -199,13 +198,31 @@ input[type=submit] {
   font-size: 22px;
 }
 
-/* Hover */
-#logo:hover,
-input[type=submit]:hover {
-  background: #5e7f7e;
+/* Some Bonus Elements Added Here */
+/* Logo Hover effect */
+
+#logo:hover, input[type=submit]:hover {
+	background: #16AAA5;
+	border: 1px solid #dddddd;
+	color: #dddddd;
 }
+
+/* Nav Hover effect*/
 
 nav a:hover {
-  color: #5e7f7e;
+  color: #404b4a;
 }
 
+
+/* About Photo Hover effect*/
+
+.myphoto { margin-left: 30px; }
+
+.myphoto:hover {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+  
+}
