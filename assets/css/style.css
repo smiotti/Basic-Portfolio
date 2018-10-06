@@ -14,7 +14,6 @@ body {
 }
 
 /* About Page */
-
 /* Top Level Styling */	
 
 h1, h2 {
@@ -161,16 +160,6 @@ nav ul li:first-child a {
   font-size: 22px;
 }
 
-/* Some Bonus Elements Added Here */
-/* Logo Hover effect */
-
-#logo:hover, input[type=submit]:hover {
-	background: #16AAA5;
-	border: 1px solid #dddddd;
-	color: #dddddd;
-}
-
-
 /* Styling for Contact Page */
 
 #contact-form ul {
@@ -211,17 +200,21 @@ input[type=submit] {
 	border: 0 none;
 }
 
+/* Some Bonus Elements Added Here */
 
-/* Bonus Styling */
+/* Logo Hover effect */
+#logo:hover, input[type=submit]:hover {
+	background: #16AAA5;
+	border: 1px solid #dddddd;
+	color: #dddddd;
+}
+
 /* Nav Hover effect*/
-
 nav a:hover {
   color: #404b4a;
 }
 
-
 /* About Photo Hover effect*/
-
 .myphoto { margin-left: 30px; }
 
 .myphoto:hover {
