@@ -5,9 +5,10 @@ body {
   margin: 0;
   line-height: 1.5;
 	background: #dddddd url(http://4.bp.blogspot.com/-fCSZHFJ8LIk/T5Gv83GxUYI/AAAAAAAAANY/Mi1fvmJ1aPI/s0/Lure%2BMaking%2BProject%2B1%2B005%2BLarge%2BWeb%2Bview.jpg) repeat scroll top left;
-}
+}	
 
-{
+
+* {
 	box-sizing: border-box;
 }
 
@@ -105,7 +106,7 @@ nav ul li:first-child a {
 }
 
 
-.module {
+.box {
 	background-color: #ffffff;
 	padding: 30px;
 	border: 1px solid #dddddd;
@@ -121,6 +122,51 @@ nav ul li:first-child a {
 	float: left;
 	margin-right: 30px;
 }
+
+/* Styling for Portfolio Page*/
+
+.sports {
+  position: relative;
+  float: left;
+	width: 374px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.sportswork:nth-child(even) {
+  margin-right: 40px;
+}
+
+.sports img {
+  width: 60%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.sports h3 {
+  position: absolute;
+  bottom: 0px;
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 10px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+  font-size: 22px;
+}
+
+/* Some Bonus Elements Added Here */
+/* Logo Hover effect */
+
+#logo:hover, input[type=submit]:hover {
+	background: #16AAA5;
+	border: 1px solid #dddddd;
+	color: #dddddd;
+}
+
 
 /* Styling for Contact Page */
 
@@ -162,50 +208,7 @@ input[type=submit] {
   border: 0 none;
 }
 
-/* Styling for Portfolio Page*/
 
-.sports {
-  position: relative;
-  float: left;
-	width: 274px;
-  margin: 20px 0 25px;
-  overflow: auto;
-}
-
-.sportswork:nth-child(even) {
-  margin-right: 40px;
-}
-
-.sports img {
-  width: 100%;
-  border: 0 none;
-  opacity: 0.8;
-}
-
-.sports h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 30px;
-  color: #ffffff;
-  text-align: center;
-  background: #4aaaa5;
-  border-bottom: 0;
-  font-family: "Georgia";
-  font-size: 22px;
-}
-
-/* Some Bonus Elements Added Here */
-/* Logo Hover effect */
-
-#logo:hover, input[type=submit]:hover {
-	background: #16AAA5;
-	border: 1px solid #dddddd;
-	color: #dddddd;
-}
 
 /* Nav Hover effect*/
 
@@ -219,10 +222,9 @@ nav a:hover {
 .myphoto { margin-left: 30px; }
 
 .myphoto:hover {
-  -ms-transform: rotate(-10deg);
-  -webkit-transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-  -o-transform: rotate(-10deg);
-  transform: rotate(-10deg);
-  
+  -ms-transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+	transform: rotate(-15deg);
 }
